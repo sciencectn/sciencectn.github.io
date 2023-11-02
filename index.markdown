@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+This is the home page, right? 
+
+Adding more content to see if it builds. 
