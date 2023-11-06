@@ -4,6 +4,8 @@ title: About me
 permalink: /about/
 ---
 
+![me](/assets/me.jpg)
+
 Sometime when I was in middle school, my grandmother set up me up with my own website: chrisfun.com. 
 
 (This is started to sound like those origin stories you read on the back of food labels. 
@@ -16,6 +18,6 @@ chrisfun.com disappeared. I probably moved on to other things and we let the dom
 
 Years later, I felt like reviving it by creating this site. I wanted to combine that same authentic free expression and chaos of a 12 year old with professional multimedia tools with hopefully useful bits of wisdom about software engineering. But the chrisfun.com domain is crazy expensive for some reason, so now we have chrisfun.xyz. 
 
-Anyway, about me: I'm a software engineer specializing in embedded systems in high stakes situations: scary machines in industrial environments (trains, forklift trucks, robots, drones, etc). 
+About me: I'm a software engineer specializing in embedded systems in high stakes situations: scary machines in industrial environments (trains, forklift trucks, robots, drones, etc). 
 
-I mess around with many things in my free time: like making music, writing, reading sci-fi, occasionally writing things, wondering about the Fermi paradox, and cooking (mostly finding ways to automate it). 
+I mess around with many things in my free time: like making music, writing, reading sci-fi, occasionally writing things, photography, wondering about the Fermi paradox, and cooking (mostly finding ways to automate it). 
