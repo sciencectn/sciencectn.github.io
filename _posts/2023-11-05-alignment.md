@@ -2,6 +2,7 @@
 layout: post
 title: The less aligned you are, the more communication bandwidth you need
 date: 2023-11-05
+permalink: /misalignment/
 ---
 
 ![misalign](/assets/misalign.png)
