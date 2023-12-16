@@ -25,6 +25,7 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chrisfun.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sciencectn
+youtube_username: "@ca-taylor"
 show_excerpts: true
 # Build settings
 theme: minima
