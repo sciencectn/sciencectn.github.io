@@ -1,6 +1,8 @@
 ---
 title: I've returned to Linux but I miss Powershell
 layout: post
+permalink: /powershell/
+date: 2025-04-27
 ---
 
 At my previous job, we all used Windows. At first I insisted on doing everything in Windows Subsystem for Linux (WSL) or Linux-based Docker containers, but eventually I gave in and went native. 
