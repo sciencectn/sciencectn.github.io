@@ -3,9 +3,9 @@ title: I've returned to Linux but I miss Powershell
 layout: post
 ---
 
-At my previous job, we all used Windows. At first I resisted this and insisted on doing everything in Windows Subsystem for Linux (WSL) or Linux-based Docker containers, but eventually I gave in and went native. 
+At my previous job, we all used Windows. At first I insisted on doing everything in Windows Subsystem for Linux (WSL) or Linux-based Docker containers, but eventually I gave in and went native. 
 
-I decided to really try it and read [Learn Powershell in a Month of Lunches](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches) so I'd actually understand things instead of cobbling together snippets from search or LLMs. 
+I read [Learn Powershell in a Month of Lunches](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches) so I'd actually understand things instead of cobbling together snippets from search or LLMs. 
  
 Then, at a subsequent job, I went back to Linux. I thought I'd feel relieved to be back in my comfort zone of not developing on Windows. But instead, as I went back to the standard Linux shells (bash/zsh), I found myself missing some Powershell features. 
  
@@ -13,7 +13,7 @@ These are some features that I miss.
 
 ## Tab completion for free
 
-I still have not bothered to add tab completion to my shell scripts because of the annoying extra steps. And good luck making it portable to bash, zsh, fish, etc. The best I've done is use [argcomplete](https://github.com/kislyuk/argcomplete) for Python scripts. 
+I still have not bothered to add tab completion to my shell scripts because of the extra steps involved. 
 
 Powershell gives you this for free when you write a "cmdlet" (like a shell function). Here's an example cmdlet:
 ```powershell
@@ -37,19 +37,24 @@ Test-MyCmdlet -Argument  # Boom
 
 ## A debugger
 
-Eventually your spicy one-liner in the CLI will grow out of control and you need to migrate it to a text file and run it as a script. Sometimes, you might need to debug that script. 
+Eventually your spicy one-liner in the CLI will grow out of control and you need to turn it into a script.
+Sometimes, you might need to debug that script. 
 
 vscode with the [Powershell](https://marketplace.visualstudio.com/items/?itemName=ms-vscode.PowerShell) extension does this with no extra steps. 
 
+Add a breakpoint: 
 ![](/assets/powershell/powershell-run.png)
+
+and hit run: 
 ![](/assets/powershell/powershell-debug.png)
 
 ## Editor support
 
 vscode with the Powershell extension has decent autocomplete and linting. 
 
+![](/assets/powershell/powershell-autocomplete.png)
 
-![](/assets/powershell/powershell-autocomplete.png)The best bash alternative I've found is [shellcheck](https://www.shellcheck.net) for linting. I haven't found great editor support for bash/zsh script editing. 
+The best bash alternative I've found is [shellcheck](https://www.shellcheck.net) for linting. I haven't found great editor support for bash/zsh script editing. 
 
 ## A package manager
 
@@ -140,19 +145,14 @@ PARAMETERS
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
         about_CommonParameters (https://go.microsoft.com/fwlink/?LinkID=113216). 
     
-INPUTS
-    
-OUTPUTS
-    
-    
-RELATED LINKS
+
 ```
 
 ## Command naming consistency
 
 At first this seemed annoying and verbose. `Get-ChildItem` instead of `ls`? 
 
-But after a while, I noticed I could figure out commands purely based on their names without asking resources "how do I (X)?" 
+But then I noticed I could find the command I wanted faster than asking Google/ChatGPT. 
 
 For example, I knew of `Get-Process`, which is like `ps` and shows all running processes, but how would I stop a process? Easy, find all commands whose verb operates on the noun `Process`:
 ```powershell
@@ -166,7 +166,7 @@ Start-Process
 Stop-Process
 Wait-Process
 ```
-`Stop-Process` is it. 
+`Stop-Process` it is. 
 
 ## Objects, not plaintext
 
@@ -198,16 +198,16 @@ or sorting on the column index which breaks if you shuffle the columns around an
 ps -axo pid,%cpu,%mem,command | grep '[c]hrome' | sort -k2 -nr
 ```
 
-(Also, not the `grep [c]hrome` hack to avoid searching for the grep process itself). 
+(Also, note the `grep [c]hrome` hack to avoid searching for the grep process itself). 
 
-I also found this amazing for pipelines. Because all inputs and outputs are objects, Powershell knows the types of things going through a pipeline *before* running anything. For example, suppose I want to filter processes by their commandline arguments but I momentarily forgot the property. 
+This is amazing for pipelines. Because all inputs and outputs are objects, Powershell knows the types of things going through a pipeline *before* running anything. For example, suppose I want to filter processes by their commandline arguments but I momentarily forgot the property. 
 
 ```powershell
 Get-Process | Where-Object Com # Command? Commandline? idk, let's press tab
 ```
 results in: 
 ```powershell
-❯ Get-Process | Where-Object CommandLine
+Get-Process | Where-Object CommandLine
 CommandLine  Comments     Company      CompanyName
 ```
 
@@ -231,5 +231,10 @@ MetadataError: Cannot convert value "foo" to type "System.Int32". Error: "The in
 ## Things I don't miss
 
 * **The Powershell 5.1 and 7 distinction.** Windows ships with Powershell 5.1, but the latest features are in Powershell 7 (currently `7.5.1`). This means you either need to get everyone on your team to install 7 to share scripts, or you don't use the newer features in 7
-* **The rest of Windows.** NTFS permissions, path separators are backslashes, there are too many ways to do things (`batch`, `vbscript`, `Powershell`). 
+* **The rest of Windows.** NTFS permissions, path separators are backslashes, there are too many ways to do things (`batch`, `vbscript`, `Powershell`, control panel GUIs), Windows Docker containers don't work. I'd add "vendor lock-in" here but we were already stuck in the walled garden and Powershell happened to be in it. 
 
+## Conclusion
+
+Powershell just seemed more intuitive and consistent than bash or zsh and I found I could do a lot more without asking Google or ChatGPT to remind me how to do things. 
+
+There are newer shells like [fish](https://fishshell.com) which share these design goals. Maybe I should try them. 
