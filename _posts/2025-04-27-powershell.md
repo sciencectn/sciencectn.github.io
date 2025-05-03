@@ -55,8 +55,17 @@ and hit run:
 vscode with the Powershell extension has decent autocomplete and linting. 
 
 ![](/assets/powershell/powershell-autocomplete.png)
+I haven't seen a bash/zsh script editor with this kind of autocomplete and I'm not sure how such a thing would work considering that those completions reflect the system they run on, not just the source code. For example:
+```bash
+systemctl is-active Netwo#TAB
+```
+might give
+```bash
+systemctl is-active NetworkManager.service
+```
+which would only make sense on systems where `NetworkManager` is installed. 
 
-The best bash alternative I've found is [shellcheck](https://www.shellcheck.net) for linting. I haven't found great editor support for bash/zsh script editing. 
+I will say [shellcheck](https://www.shellcheck.net) is quite good for linting. 
 
 ## A package manager
 
@@ -232,8 +241,16 @@ MetadataError: Cannot convert value "foo" to type "System.Int32". Error: "The in
 
 ## Things I don't miss
 
-* **The Powershell 5.1 and 7 distinction.** Windows ships with Powershell 5.1, but the latest features are in Powershell 7 (currently `7.5.1`). This means you either need to get everyone on your team to install 7 to share scripts, or you don't use the newer features in 7
-* **The rest of Windows.** NTFS permissions, path separators are backslashes, there are too many ways to do things (`batch`, `vbscript`, `Powershell`, control panel GUIs), Windows Docker containers don't work. I'd add "vendor lock-in" here but we were already stuck in the walled garden and Powershell happened to be in it. 
+**The Powershell 5.1 and 7 distinction.** Windows ships with Powershell 5.1, but the latest features are in Powershell 7 (currently `7.5.1`). This means you either need to get everyone on your team to install 7 to share scripts, or you don't use the newer features in 7. 
+
+**No universal 'fail fast' mode**. In bash, exit code 0 is success, anything else is fail. `set -e` tells your script to fail fast and exit when it sees a nonzero code which is great for cutting down on debugging time. Powershell sort of has this with 
+```powershell
+$ErrorActionPreference = 'Stop'
+```
+
+but it only works on programs that use Powershell's exception mechanisms, like `Write-Error` and not on programs that use exit codes. 
+
+**The rest of Windows.** NTFS permissions, path separators are backslashes, there are too many ways to do things (`batch`, `vbscript`, `Powershell`, control panel GUIs), Windows Docker containers don't work. I'd add "vendor lock-in" here but we were already stuck in the walled garden and Powershell happened to be in it. 
 
 ## Conclusion
 
