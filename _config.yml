@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: chrisfun
-email: mobile.annular-0r@icloud.com
 description: >-
   My not-a-professional website
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,6 +26,7 @@ url: "http://chrisfun.xyz" # the base hostname & protocol for your site, e.g. ht
 github_username:  sciencectn
 youtube_username: "@kumquats-inc"
 show_excerpts: true
+
 # Build settings
 theme: minima
 plugins:
