@@ -45,9 +45,9 @@ Sometimes, you might need to debug that script.
 vscode with the [PowerShell](https://marketplace.visualstudio.com/items/?itemName=ms-vscode.PowerShell) extension does this with no extra steps. 
 
 Add a breakpoint: 
-![](/assets/PowerShell/PowerShell-run.png)
+![](/assets/powershell/powershell-run.png)
 and hit run: 
-![](/assets/PowerShell/PowerShell-debug.png)
+![](/assets/powershell/powershell-debug.png)
 [Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) is a close second. Its main limitation is it doesn't seem to be aware of variables scopes. Whereas most debuggers can show you local variables like gdb's `info locals`, `bashdb`'s `info variables` shows way too much. 
 
 To debug bash scripts I usually use `set -x` which is good enough. 
@@ -56,8 +56,8 @@ To debug bash scripts I usually use `set -x` which is good enough.
 
 vscode with the PowerShell extension has decent autocomplete and linting. 
 
-![](/assets/PowerShell/PowerShell-autocomplete.png)
-I haven't seen a bash/zsh script editor with this kind of autocomplete and I'm not sure how feasible it would be to make this work, considering current shell completions reflect they system they run on and not strictly the command syntax. 
+![](/assets/powershell/powershell-autocomplete.png)
+I haven't seen a bash/zsh script editor with this kind of autocomplete and I'm not sure how feasible it would be to make this work, considering current shell completions reflect the system they run on and not strictly the command syntax. 
 
 For example, 
 ```
@@ -112,7 +112,7 @@ assuming there is no conflicting argument that would match.
 In PowerShell, it's all baked in to the file, and vscode's autocomplete helps you write it. 
 
 For example, this cmdlet has the argument `Argument` and vscode autocompletes it as I write the documentation: 
-![](/assets/PowerShell/PowerShell-autocomplete-help.png)
+![](/assets/powershell/powershell-autocomplete-help.png)
 Then with a docstring that looks like this:
 ```PowerShell
 function Test-MyCmdlet {
@@ -371,4 +371,4 @@ PowerShell just seemed more intuitive and consistent than bash or zsh and I foun
 
 I had high hopes for [fish](https://fishshell.com) as the successor to bash but its [lack of a fail-fast mode](https://github.com/fish-shell/fish-shell/issues/510) is a dealbreaker. bash's `set -e` and PowerShell's `$ErrorActionPreference = 'Stop'` may not be perfect but they're way more convenient than checking return codes after every single instruction. 
 
-[^1]: I realize PowerShell is cross-platform (I wrote this on macOS) but good luck evangelizing it to teams used to Linux. 
+[^1]: I realize PowerShell is cross-platform (I wrote this on macOS) but good luck evangelizing it to teams used to Linux.
