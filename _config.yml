@@ -25,6 +25,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chrisfun.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sciencectn
 youtube_username: "@kumquats-inc"
+mastodon:
+  - username: wallfacer
+    instance: mastodon.world
+bluesky: "@tango-taylor.bsky.social"
 show_excerpts: true
 
 # Build settings
