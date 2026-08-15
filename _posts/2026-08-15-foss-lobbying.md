@@ -33,7 +33,7 @@ This bill made me angry for a number of reasons.
 
 I penned a [letter](/letter) to my reps to share my feelings. I thought that'd be the end of it, until a friendly staffer with Senator Roger Niello's office told me:
 - there was an amendment bill (AB 1856) in play that would modify the DAAA, 
-- you can can submit position letters to the legislature to tell them how you feel about bills,
+- you can submit position letters to the legislature to tell them how you feel about bills,
 - there are public hearings you can attend so the lawmakers can see you are a real person with thoughts on their legislation.
 
 So, on April 21st, I attended the hearing with the Assembly Privacy and Consumer Protection (P&CP) Committee and [voiced my opposition](https://calmatters.digitaldemocracy.org/hearings/279266#t=1092&f=7b87059bf53b0b4642282c875e6bd43c). It turned out the bill's author, Buffy Wicks, did get the memo about damage to open source and mentioned it in her opening statement. 
@@ -56,13 +56,13 @@ This seemed stupid and ripe for abuse. But I was focused on protecting open sour
 
 Days went by and we had heard nothing. The browser age signal expansion was starting to bother me. 
 
-I noticed that my Assemblymember, Josh Hoover, was also a member on the Privacy and Consumer Protection committee. I also noticed that Hoover's staff never returned my calls or emails about AB 1856. By a stroke of luck, I noticed he was having a campaign event and I decided to show up and tell him in person. I told him that AB 1856 scared the crap out of me and it was supposed to reign in Big Tech but it would actually hurt independent developers and small businesses. 
+I noticed that my Assemblymember, Josh Hoover, was also a member on the Privacy and Consumer Protection committee. I also noticed that Hoover's staff never returned my calls or emails about AB 1856. By a stroke of luck, I noticed he was having a campaign event and I decided to show up and tell him in person. I told him that AB 1856 scared the crap out of me and it was supposed to rein in Big Tech but it would actually hurt independent developers and small businesses. 
 
 ![](assets/activism%201.jpg)
 
 For the record, I'm very much an introvert and I hated doing this. But it worked, and the next day his staff got back to me and I sent them all the details on how to fix the DAAA.
 
-A week after I crashed the campaign event, the unexpected happened: Hoover actually abstained from voting on it at the Assembly Appropriations Committee. A staffer confirmed that the abstention was for this specific bill and not just abstaining en-masse. Did I do that? Who knows. 
+A week after I crashed the campaign event, the unexpected happened: Hoover actually abstained from voting on it at the Assembly Appropriations Committee. A staffer confirmed that the abstention was for this specific bill and not just abstaining en masse. Did I do that? Who knows. 
 
 (Also, I want to credit Hoover here, I think he has actually done a way better job than other CA politicians at child-protection legislation. He's one of the few lawmakers who actually [listened to kids and co-authored a bill](https://edsource.org/2026/social-media-ai-mental-health/755990) with them. EFF endorsed this bill. I'll probably vote for Hoover in his reelection campaign).
 
@@ -73,7 +73,7 @@ Four days later, we got our open source [carveout](https://legiscan.com/CA/text/
 > 
 > _(2) “Operating system provider” does not mean a person or entity that distributes an operating system or application under license terms that permit a recipient to copy, redistribute, and modify the software._
 
-With this amendment, only commercial operating systems would supply the signal and only to applications in an app store
+With this amendment, only commercial operating systems would supply the signal and only to applications in an app store...
 ![](assets/daaa-diagram-commercial-os.png)
 
 ...while open source operating systems would be left alone. 
@@ -81,7 +81,7 @@ With this amendment, only commercial operating systems would supply the signal a
 
 I emailed the staffers and thanked them and suggested some [improvements](https://mastodon.world/@wallfacer/116652445797672294). I felt that the "Application" carveout could be stronger: the carveout should be based on whether an app is open source or not, as opposed to it being in an app store. What if the AG decides that a package manager like [homebrew](https://brew.sh/) is an app store? What about open source apps that end up in commercial app stores (like [Python in Windows App Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US))?
 
-I also felt that the operating system carveout might introduce a loophole that Google could abuse. The Android operating system is technically open source, but Google uses clever hardware restrictions built-in to Android phones via something called the Google Play Integrity API to [nerf custom builds of Android](https://grapheneos.social/@GrapheneOS/116550899908879585) like Graphene. Technically, you can "copy, redistribute, and modify" Android, but once you do, your apps get nerfed. This is a sneaky form of [Tivoization](https://en.wikipedia.org/wiki/Tivoization). 
+I also felt that the operating system carveout might introduce a loophole that Google could abuse. The Android operating system is technically open source, but Google uses clever hardware restrictions built into Android phones via something called the Google Play Integrity API to [nerf custom builds of Android](https://grapheneos.social/@GrapheneOS/116550899908879585) like Graphene. Technically, you can "copy, redistribute, and modify" Android, but once you do, your apps get nerfed. This is a sneaky form of [Tivoization](https://en.wikipedia.org/wiki/Tivoization). 
 
 The staffers didn't reply to me. Oh well. 
 
@@ -97,9 +97,9 @@ All in all, not bad for my first engagement with a bill. We got our FOSS exempti
 - [EFF](https://www.eff.org/), in particular Molly and Rin. EFF is awesome. I don't think the public knows what a hellscape we'd be living in without EFF. 
 - [Oakland Privacy](https://oaklandprivacy.org/). I thought they were fighting this bill because of its disturbing implications for privacy, but it turns out they fought for the open source carveout too. They're in Buffy Wicks's district so they're well positioned to fight this. 
 - [Carl Richell of System76](https://system76.com/blog/post/system76-on-age-verification), who helped get an open source carveout in Colorado's similar bill.  
-- Lots of independent developers who sent letters to their reps or got the word out, like @snow, [@bzdev](https://mastodon.world/@bzdev@fosstodon.org/116644723679402377), [agelesslinux.org](https://agelesslinux.org/), the [Lunduke Journal](https://www.youtube.com/watch?v=Ie9-kgxKjIc), [Louis Rossman](https://www.youtube.com/watch?v=wZonPM4aXFY), and many others. 
+- Lots of independent developers who sent letters to their reps or got the word out, like @snow, [@bzdev](https://mastodon.world/@bzdev@fosstodon.org/116644723679402377), [agelesslinux.org](https://agelesslinux.org/), the [Lunduke Journal](https://www.youtube.com/watch?v=Ie9-kgxKjIc), [Louis Rossmann](https://www.youtube.com/watch?v=wZonPM4aXFY), and many others. 
 
-When I got into this, I told myself *I may have little influence, but if I say nothing, and this stupid bill passes, I'm gonna regret for the rest of my life.*
+When I got into this, I told myself *I may have little influence, but if I say nothing, and this stupid bill passes, I'm gonna regret it for the rest of my life.*
 
 I have no idea how much influence I had. I found the whole process of dealing with the legislature exhausting. But meeting other activists passionate about the same things made it worth it. 
 
