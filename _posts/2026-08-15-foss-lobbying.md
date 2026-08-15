@@ -89,14 +89,14 @@ A few days after that, I met with [Rin](https://www.eff.org/about/staff/rindala-
 
 The bill was headed to the Senate P&CP&DT Committee, so I sent them a position letter with that diagram above (I'm under 13!) to get my point across.
 
-A few weeks later, on July 1st, Wicks's staff [removed the website signaling requirement](https://legiscan.com/CA/text/AB1856/id/3451963). They worked around it by considering the age that an app receives to apply "across all platforms of an application, including an internet website \[made by the same developer\]". For example, if your iPhone sends the Facebook App your age, that same age will apply on facebook.com. 
+A few weeks later, on July 1st, lawmakers [removed the website signaling requirement](https://legiscan.com/CA/text/AB1856/id/3451963). They worked around it by considering the age that an app receives to apply "across all platforms of an application, including an internet website \[made by the same developer\]". For example, if your iPhone sends the Facebook App your age, that same age will apply on facebook.com. 
 
 The bill is headed to the Senate now for a final vote.
 
 All in all, not bad for my first engagement with a bill. We got our FOSS exemption and they backed down on a privacy-damaging age signal. I don't know how much influence @snow and I had. They won't tell us. This was a huge team effort of many individuals and organizations working together:
 - [EFF](https://www.eff.org/), in particular Molly and Rin. EFF is awesome. I don't think the public knows what a hellscape we'd be living in without EFF. 
 - [Oakland Privacy](https://oaklandprivacy.org/). I thought they were fighting this bill because of its disturbing implications for privacy, but it turns out they fought for the open source carveout too. They're in Buffy Wicks's district so they're well positioned to fight this. 
-- [Carl Richell of System76](https://system76.com/blog/post/system76-on-age-verification), who helped get an open source carveout in Colorado's similar bill.  
+- [Carl Richell and System76](https://system76.com/blog/post/system76-on-age-verification), who helped get an open source carveout in Colorado's similar bill.  
 - Lots of independent developers who sent letters to their reps or got the word out, like @snow, [@bzdev](https://mastodon.world/@bzdev@fosstodon.org/116644723679402377), [agelesslinux.org](https://agelesslinux.org/), the [Lunduke Journal](https://www.youtube.com/watch?v=Ie9-kgxKjIc), [Louis Rossmann](https://www.youtube.com/watch?v=wZonPM4aXFY), and many others. 
 
 When I got into this, I told myself *I may have little influence, but if I say nothing, and this stupid bill passes, I'm gonna regret it for the rest of my life.*
