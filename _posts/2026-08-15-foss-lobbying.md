@@ -1,3 +1,11 @@
+---
+title: My crash course in lobbying for open source
+layout: post
+date: 2026-08-15
+permalink: daaa
+---
+
+
 
 One morning, this headline greeted me: ["California's AB 1043 could regulate every Linux command."](https://shujisado.org/2026/03/02/californias-ab-1043-could-regulate-every-linux-command/) It seemed like clickbait. I thought California was good at regulating technology. Why would they do this?
 
