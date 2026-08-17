@@ -17,7 +17,7 @@ Then I read the law, called the *Digital Age Assurance Act* (DAAA). Here's what 
 
 Once the application receives the age signal, the app now has "actual knowledge" of the user's age, and the developer who created the app is now liable for any other age-related regulation out there, such as California's upcoming under-16 social media ban ([AB 1709](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1709)) or their upcoming chatbot regulations ([AB 2023](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2023)). OS developers are liable for creating the age signaling mechanism. There was no distinction between commercial and open source software. 
 
-![](assets/daaa-diagram.png)
+![](assets/daaa-diagram-initial.png)
 
 Meta, Apple, Microsoft, et al can survive this liability. But for open source developers, it is financially ruinous. The bill hits developers with a fine of $2500 - $7500 "per affected child" if they fail to comply. And that's "affected", not "harmed". If a kid finds your app on GitHub, if you didn't request the age signal, if you didn't follow the patchwork of protect-the-children regulations emerging, you are liable. This would have a predictable effect on the open source community. 
 
