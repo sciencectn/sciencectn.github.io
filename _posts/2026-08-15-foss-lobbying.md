@@ -52,7 +52,7 @@ I later found out that a week before the meeting, they [expanded the scope](http
 
 ![](assets/daaa-websites.png)
 
-This seemed stupid and ripe for abuse. But I was focused on protecting open source apps and operating systems. I figured websites would just be a necessary casualty. You can't win every battle. 
+This seemed stupid and ripe for abuse by sketchy websites. But I was focused on protecting open source apps and operating systems. I figured websites would just be a necessary casualty. You can't win every battle. 
 
 Days went by and we had heard nothing. The browser age signal expansion was starting to bother me. 
 
