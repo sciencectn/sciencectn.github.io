@@ -10,10 +10,10 @@ permalink: daaa
 One morning, this headline greeted me: ["California's AB 1043 could regulate every Linux command."](https://shujisado.org/2026/03/02/californias-ab-1043-could-regulate-every-linux-command/) It seemed like clickbait. I thought California was good at regulating technology. Why would they do this?
 
 Then I read the law, called the *Digital Age Assurance Act* (DAAA). Here's what it requires:
-- The operating system asks you for your age on account setup. 
-- The OS stores your age.
-- All applications, when launched, ask the OS for your age. 
-- The OS provides an age "signal", a rough estimate of your age with downgraded precision to protect privacy. 
+- The operating system asks for the age of the person using the account.
+- The OS stores the age.
+- All applications, when launched, ask the OS for an age "signal", a rough estimate of the age with downgraded precision to protect privacy. 
+- The OS provides the signal.
 
 Once the application receives the age signal, the app now has "actual knowledge" of the user's age, and the developer who created the app is now liable for any other age-related regulation out there, such as California's upcoming under-16 social media ban ([AB 1709](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1709)) or their upcoming chatbot regulations ([AB 2023](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2023)). OS developers are liable for creating the age signaling mechanism. There was no distinction between commercial and open source software. 
 
@@ -23,10 +23,10 @@ Meta, Apple, Microsoft, et al can survive this liability. But for open source de
 
 ![](assets/dont-get-fined.jpg)
 
-(It's worth noting that this bill might be weakened under *Bernstein v. US* precedent as compelled speech. But that's not a guarantee, the courts haven't decided yet, and until they do, [a corrupt attorney general](https://www.thebarbedwire.com/ken-paxton-scandal-timeline/) can still [ruin your day](https://www.chron.com/culture/article/texas-bluesky-age-verification-22328414.php) to score political points for "protecting the children".)
 
 This bill made me angry for a number of reasons. 
 - You can't just coerce a technology standard into existence by threatening developers with fines. One type of tech standard, called an [RFC](https://www.ietf.org/process/rfcs/), literally stands for "Request for Comment". You know, like, *requesting comments and feedback before you introduce some major change to every application and operating system.* When politicians feel stupid enough to ignore the experts and ram through tech-by-fiat anyway, we get idiocy like the CALEA wiretapping system, which has been [hacked by Chinese state actors](https://www.wsj.com/tech/cybersecurity/u-s-wiretap-systems-targeted-in-china-linked-hack-327fc63b) to spy on Americans. 
+- What's the point? If this law assumes a tech-literate parent is in the picture, then can't the parent just use existing parental controls to accomplish the same thing without this law? All I can see this law doing is enshrining features that [Apple](https://support.apple.com/en-us/102617), Google, Microsoft already have into law and giving app developers like Meta a way to shift age verification liability away from themselves and onto the OS.
 - Open source software brought me great joy and learnings as a child. I owe a lot of my embedded systems knowledge to Adafruit Industries. And now the state was nerfing something that brings great educational joy to children in the name of...protecting the children? 
 - Open source feels like one of the few escape hatches we have against enshittification. Big Tech doesn't want you to own your own stuff in the name of profits. For example, your Kindle books aren't really yours, and if you try to move your book off the Kindle and on to another non-Amazon device, you're committing a felony under DMCA § 1201. Apple doesn't let you download any iOS app unless it comes from its app store and they take a 30% fee cut (Epic Games fought like hell against this). Google [nerfs GrapheneOS](https://grapheneos.social/@GrapheneOS/116550899908879585), a competing Android distribution, by downgrading the functionality of its apps. But with open source apps, the gate is wide open. You can draw diagrams with [draw.io](https://app.diagrams.net/) or [Excalidraw](https://excalidraw.com/) and avoid getting locked into a LucidChart or Figma subscription. [yt-dlp](https://github.com/yt-dlp/yt-dlp) lets you take YouTube videos offline for safekeeping or analysis. [uBlock Origin](https://github.com/gorhill/ublock) blocks ads. [Privacy Badger](https://privacybadger.org/) protects you from tracking cookies (as opposed to useless permission banners, thanks EU). Big Tech gouges you with ads and fee hikes, but open source is yours to use as you please. 
 - I'm massively struggling with burnout right now and one contributing factor is the feeling of powerlessness against increasingly oligarchic tech companies. Many of my peers in the tech industry also feel this way: they're not getting jobs, they feel stuck in the job that they have, and they're mentally checked out and basically "[sever](https://severance-tv.fandom.com/wiki/Severance_Procedure)" themselves when they go to work. It's terrible for our mental health (and our kids!). Cracking down on open source widens Big Tech's moat even more by hurting competition and home-grown alternatives. And the reason is to improve kids' mental health? 🤬🤬🤬🤬
@@ -103,4 +103,4 @@ When I got into this, I told myself *I may have little influence, but if I say n
 
 I have no idea how much influence I had. I found the whole process of dealing with the legislature exhausting. But meeting other activists passionate about the same things made it worth it. 
 
-I'm hoping by throwing this article out there, that it inspires more people to copy me and get involved. Hopefully more extroverted people who can comfortably crash town halls and campaign events.
+I'm hoping by throwing this article out there, that it inspires more people to copy us and get involved.
