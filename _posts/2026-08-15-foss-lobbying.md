@@ -17,11 +17,11 @@ Then I read the law, called the *Digital Age Assurance Act* (DAAA). Here's what 
 
 Once the application receives the age signal, the app now has "actual knowledge" of the user's age, and the developer who created the app is liable for any other age-related regulation out there, such as California's upcoming under-16 social media ban ([AB 1709](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1709)) or their upcoming chatbot regulations ([AB 2023](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2023)). OS developers are liable for creating the age signaling mechanism. There was no distinction between commercial and open source software. 
 
-![](assets/daaa-diagram-initial.png)
+![](/assets/daaa-diagram-initial.png)
 
 Meta, Apple, Microsoft, et al. can survive this liability. But for open source developers, it is financially ruinous. The bill hits developers with a fine of $2500-$7500 "per affected child" if they fail to comply. And that's "affected", not "harmed". If a kid finds your app on GitHub, if you didn't request the age signal, if you didn't follow the patchwork of protect-the-children regulations emerging, you are liable. This would have a predictable effect on the open source community. 
 
-![](assets/dont-get-fined.jpg)
+![](/assets/dont-get-fined.jpg)
 
 
 This bill made me angry for a number of reasons. 
@@ -38,7 +38,7 @@ I penned a [letter](/letter) to my reps to share my feelings. I thought that'd b
 
 So, on April 21st, I attended the hearing with the Assembly Privacy and Consumer Protection (P&CP) Committee and [voiced my opposition](https://calmatters.digitaldemocracy.org/hearings/279266#t=1092&f=7b87059bf53b0b4642282c875e6bd43c). It turned out the bill's author, Buffy Wicks, did get the memo about damage to open source and mentioned it in her opening statement. 
 
-![me standing in front of a microphone to voice my opposition to legislators](assets/p-cp-hearing.jpg)
+![me standing in front of a microphone to voice my opposition to legislators](/assets/p-cp-hearing.jpg)
 
 Another developer, the guy standing behind me ([@snow](https://mastodon.world/@snow@teardrop.net)), independently had the same idea to show up and voice opposition. Thanks to his persistence, we secured a meeting with Wicks's staff and explained the issues with their bill:
 - @snow mentioned that most open source applications are completely harmless. He mentioned a compiler as an example, and explained to the staffers that, no, a compiler doesn't geolocate you and, no, it doesn't track you and share your data with Big Tech. Wicks's staff was particularly concerned about the profiling and surveillance of children (I am too).
@@ -50,7 +50,7 @@ The meeting was pleasant. We sent them some suggested amendments. And then, sile
 
 I later found out that a week before the meeting, they [expanded the scope](https://legiscan.com/CA/text/AB1856/id/3425439) of the bill even more. Not content with regulating apps and operating systems, they expanded it to all *websites*. That is, if you were under 13, your browser would be required to share this fact with every website that asked.
 
-![](assets/daaa-websites.png)
+![](/assets/daaa-websites.png)
 
 This seemed stupid and ripe for abuse by sketchy websites. But I was focused on protecting open source apps and operating systems. I figured websites would just be a necessary casualty. You can't win every battle. 
 
@@ -58,7 +58,7 @@ Days went by and we had heard nothing. The browser age signal expansion was star
 
 I noticed that my Assemblymember, Josh Hoover, was also a member of the Privacy and Consumer Protection committee. I also noticed that Hoover's staff never returned my calls or emails about AB 1856. By a stroke of luck, I noticed he was having a campaign event and I decided to show up and tell him in person. I told him that AB 1856 scared the crap out of me and it was supposed to rein in Big Tech but it would actually hurt independent developers and small businesses. 
 
-![](assets/activism%201.jpg)
+![](/assets/activism%201.jpg)
 
 For the record, I'm very much an introvert and I hated doing this. But it worked, and the next day his staff got back to me and I sent them all the details on how to fix the DAAA.
 
@@ -74,10 +74,10 @@ Four days later, we got our open source [carveout](https://legiscan.com/CA/text/
 > _(2) “Operating system provider” does not mean a person or entity that distributes an operating system or application under license terms that permit a recipient to copy, redistribute, and modify the software._
 
 With this amendment, only commercial operating systems would supply the signal and only to applications in an app store...
-![](assets/daaa-diagram-commercial-os.png)
+![](/assets/daaa-diagram-commercial-os.png)
 
 ...while open source operating systems would be left alone. 
-![](assets/daaa-diagram-foss-hacker.png)
+![](/assets/daaa-diagram-foss-hacker.png)
 
 I emailed the staffers and thanked them and suggested some [improvements](https://mastodon.world/@wallfacer/116652445797672294). I felt that the "Application" carveout could be stronger: the carveout should be based on whether an app is open source or not, as opposed to it being in an app store. What if the AG decides that a package manager like [Homebrew](https://brew.sh/) is an app store? What about open source apps that end up in commercial app stores (like [Python in Windows app store](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US))?
 
