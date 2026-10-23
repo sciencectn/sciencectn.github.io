@@ -64,14 +64,14 @@ For the record, I'm very much an introvert and I hated doing this. But it worked
 
 A week after I crashed the campaign event, the unexpected happened: Hoover actually abstained from voting on it at the Assembly Appropriations Committee. A staffer confirmed that the abstention was for this specific bill and not just abstaining en masse. Did I do that? Who knows. 
 
-(Also, I want to credit Hoover here, I think he has actually done a way better job than other CA politicians at child-protection legislation. He's one of the few lawmakers who actually [listened to kids and co-authored a bill](https://edsource.org/2026/social-media-ai-mental-health/755990) with them. EFF endorsed this bill. I'll probably vote for Hoover in his reelection campaign).
+(Also, I want to credit Hoover's approach to child-safety legislation. He actually listened to what kids wanted and [co-authored a bill](https://edsource.org/2026/social-media-ai-mental-health/755990) with them. EFF endorsed this bill. I'll probably vote for Hoover in his reelection campaign).
 
 Four days later, we got our open source [carveout](https://legiscan.com/CA/text/AB1856/id/3438064). Two tweets' worth of text sparing thousands of developers from unnecessary pain: 
 
-> _(2) “Application” does not include software components that are not themselves offered to 
+> _(2) “Application” does not include software components that are not themselves offered to 
 > consumers as a stand-alone executable application through a covered application store._
 > 
-> _(2) “Operating system provider” does not mean a person or entity that distributes an operating system or application under license terms that permit a recipient to copy, redistribute, and modify the software._
+> _(2) “Operating system provider” does not mean a person or entity that distributes an operating system or application under license terms that permit a recipient to copy, redistribute, and modify the software._
 
 With this amendment, only commercial operating systems would supply the signal and only to applications in an app store...
 ![](/assets/daaa-diagram-commercial-os.png)
@@ -83,7 +83,7 @@ I emailed the staffers and thanked them and suggested some [improvements](https:
 
 I also felt that the operating system carveout might introduce a loophole that Google could abuse. The Android operating system is technically open source, but Google uses clever [hardware restrictions](https://developer.android.com/google/play/integrity/overview) built into Android phones to [nerf custom builds of Android](https://grapheneos.social/@GrapheneOS/116550899908879585) like Graphene. Technically, you can "copy, redistribute, and modify" Android, but once you do, your apps get nerfed. This is a sneaky form of [Tivoization](https://en.wikipedia.org/wiki/Tivoization). 
 
-The staffers didn't reply to me. Oh well. 
+The staffers didn't reply to me. Oh well. I'm sure they had enough on their plate.
 
 A few days after that, I met with [Rin](https://www.eff.org/about/staff/rindala-alajaji) & Molly from EFF to compare notes on advocacy, since we'd both been fighting the same bill. They were very concerned about the browser age signaling requirement and felt that we shouldn't celebrate the open source carveout yet. As Molly put it: [One step forward, two steps back](https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating). 
 
@@ -98,6 +98,8 @@ All in all, not bad for my first engagement with a bill. We got our FOSS exempti
 - [Oakland Privacy](https://oaklandprivacy.org/). I thought they were fighting this bill because of its disturbing implications for privacy, but it turns out they fought for the open source carveout too. They're in Buffy Wicks's district so they're well positioned to fight this. 
 - [Carl Richell and System76](https://system76.com/blog/post/system76-on-age-verification), who helped get an open source carveout in Colorado's similar bill.  
 - Lots of independent developers who sent letters to their reps or got the word out, like @snow, [@bzdev](https://mastodon.world/@bzdev@fosstodon.org/116644723679402377), [agelesslinux.org](https://agelesslinux.org/), the [Lunduke Journal](https://www.youtube.com/watch?v=Ie9-kgxKjIc), [Louis Rossmann](https://www.youtube.com/watch?v=wZonPM4aXFY), and many others. 
+
+I also have to give some credit to Assemblymembers Wicks & Hoover for listening to us, and for Senator Niello's staff for giving me a tutorial on engaging with committees.
 
 When I got into this, I told myself *I may have little influence, but if I say nothing, and this stupid bill passes, I'm gonna regret it for the rest of my life.*
 
